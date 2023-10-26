@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Genertator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bmi-hero">
+      <a href="home.html"><button class="button-home">Home</button></a>
+      <h2 class="bmi-heading">BMI Calculator</h2>
+      <div class="bmi-input-container">
+        <div class="height-input">
+          <label for="height">Height in CM : </label>
+          <input type="number" name="height" id="height" />
+        </div>
+        <div class="weight-input">
+          <label for="weight">Weight in KG : </label>
+          <input type="number" name="weight" id="weight" />
+        </div>
+      </div>
+      <button class="bmi-calc">Calculate</button>
+      <div class="result-bmi">
+        <label id="bmi-output-decimal">00.00</label>
+        <label id="bmi-output-words"></label>
+        <label id="bmi-knowledge">(Normal Range is 18.5 - 24.9)</label>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

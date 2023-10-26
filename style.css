@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, red,blue);
+    padding: 5%;
+}
+
+.home-heading{
+    text-align: center;
+    margin: 5%;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.home-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button{
+    height: 3rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.home-button:hover{
+    background: black;
+    color: white;
+    border: .2rem solid white;
+}
+
+.home-button:active{
+    background: linear-gradient(135deg, rgb(211, 107, 107),rgb(88, 88, 230));;
+    color: black;
+    border: .2rem solid black;
+}
+
+
+/* Color - changer CSS */
+
+.color-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+}
+
+.button-home{
+    height: 2rem;
+    width: 8rem;
+    border: .2rem solid black;
+    border-radius: .3rem;
+    font-size: 1rem;
+    padding: .2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    background: white;
+    transition: .5s;
+}
+
+.button-home:hover{
+    color: white;
+    background: black;
+    border: .2rem solid white;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+
+}
+
+.color-heading{
+    text-align: center;
+    margin: 5%;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.color-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.color-button{
+    height: 7rem;
+    width: 7rem;
+    margin-right: 2rem;
+    border: .2rem solid black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.color-button:hover{
+    height: 8rem;
+    width: 8rem;
+}
+
+.color-button:active{
+    height: 9rem;
+    width: 9rem;
+}
+
+.color-button.button1{
+    background: red;
+}
+.color-button.button2{
+    background: green;
+}
+.color-button.button3{
+    background: yellow;
+}
+.color-button.button4{
+    background: blue;
+}
+
+.para-color{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+/* BMI Generator CSS */
+
+.bmi-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background: linear-gradient(135deg, rgb(99, 196, 112), rgb(220, 175, 77));
+}
+
+.bmi-heading{
+    margin: 5%;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.bmi-input-container{
+    height: 10rem;
+    width: 30rem;
+    border: .2rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: .5rem;
+}
+
+.height-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.weight-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#height{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: .1rem solid red;
+    margin-left: .5rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#weight{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: .1rem solid red;
+    margin-left: .5rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.bmi-calc{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: .2rem solid brown;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background: burlywood;
+    transition: .5s;
+}
+
+.bmi-calc:hover{
+    border: .2rem solid burlywood;
+    background: brown;
+    height: 4rem;
+    width: 9rem;
+}
+
+.result-bmi{
+    /* border: .2rem solid black; */
+    height: 10rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 0rem;
+    font-size: 1rem;
+}
+
+#bmi-output-decimal{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#bmi-output-words{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Digital Clock  */
+
+.hero-clock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background: linear-gradient(45deg, #08001f, #30197d);
+    color: #fff;
+}
+
+.container{
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock{
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 0, 255, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+}
+
+.container::before{
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #f41b75;
+    position: absolute;
+    border-radius: 5px;
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+}
+
+.container::after{
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #419aff;
+    position: absolute;
+    border-radius: 50%;
+    right: -30px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+.clock span{
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after{
+    
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hrs::after{
+    content: 'HOURS';
+}
+#min::after{
+    content: 'MINS';
+}
+#sec::after{
+    content: 'SECS';
+}
